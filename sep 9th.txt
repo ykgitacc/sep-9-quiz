@@ -1,0 +1,27 @@
+1)
+
+DECLARE
+ A number (5) :=2;
+ B number (5) :=5;
+ add number(10);
+ sub number(10);
+ mul number(10);
+ div number(10);
+
+ 
+ BEGIN
+ add:=A+B;
+ sub:=A-B;
+ mul:=A*B;
+ div:=A/B;
+ 
+ dbms_output.put_line('add result is' || add);
+ dbms_output.put_line('sub result is' || sub);
+ dbms_output.put_line('mul result is' || mul);
+ dbms_output.put_line('div result is' || div);
+ 
+ end;
+
+
+
+
